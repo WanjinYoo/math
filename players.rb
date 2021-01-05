@@ -6,7 +6,7 @@ class Players
     @life = 3
   end
 
-  def loseLife()
+  def loseLife
     @life -= 1
   end
   

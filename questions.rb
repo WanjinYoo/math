@@ -1,5 +1,5 @@
 class Questions
-  attr_accessor :name, :life
+  attr_accessor :answer
 
   def initialize
     @number1 = 0
@@ -7,10 +7,10 @@ class Questions
     @answer = self.get_answer 
   end
 
-  def get_question()
+  def get_question
     @number1 = rand(1..20)
     @number2 = rand(1..20)
-    puts "What does #{@number1} + #{@number2} ?"
+    "What does #{@number1} + #{@number2} ?"
 
   end
 
